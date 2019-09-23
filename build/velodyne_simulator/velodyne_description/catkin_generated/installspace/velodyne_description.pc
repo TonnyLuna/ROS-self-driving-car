@@ -1,0 +1,8 @@
+prefix=/home/tonny/catvehicle_ws/install
+
+Name: velodyne_description
+Description: Description of velodyne_description
+Version: 0.0.4
+Cflags: 
+Libs: -L/home/tonny/catvehicle_ws/install/lib 
+Requires: 

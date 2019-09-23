@@ -1,0 +1,8 @@
+prefix=/home/tonny/catvehicle_ws/devel
+
+Name: velodyne_gazebo_plugins
+Description: Description of velodyne_gazebo_plugins
+Version: 0.0.4
+Cflags: -I/home/tonny/catvehicle_ws/src/velodyne_simulator/velodyne_gazebo_plugins/include
+Libs: -L/home/tonny/catvehicle_ws/devel/lib -lgazebo_ros_velodyne_laser
+Requires: roscpp sensor_msgs gazebo_ros

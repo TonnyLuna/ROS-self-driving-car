@@ -1,0 +1,8 @@
+prefix=/home/tonny/catvehicle_ws/install
+
+Name: catvehicle
+Description: Description of catvehicle
+Version: 2.0.2
+Cflags: -I/home/tonny/catvehicle_ws/install/include
+Libs: -L/home/tonny/catvehicle_ws/install/lib -lcatvehicle
+Requires: geometry_msgs roscpp rospy sensor_msgs std_msgs velodyne_pointcloud tf
